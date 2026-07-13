@@ -33,19 +33,15 @@ export default function Hero() {
           className="max-w-2xl"
         >
 
-          <span className="inline-flex rounded-full bg-green-642/20 px-2 py-1 text-xs font-semibold uppercase tracking-[0.35em] text-green-200 backdrop-blur">
-            Welcome to Green Bush Garden
-          </span>
-
           <h1 className="mt-6 font-[family:var(--font-heading)] text-5xl font-bold leading-[1.05] text-white md:text-6xl">
-            Escape Into
+             Welcome to 
             <br />
-            Nature.
+            Green Bush Garden!
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-9 text-gray-200">
             Discover delicious meals, premium coffee, beautiful gardens,
-            birthdays, weddings and unforgettable moments in the heart of
+            birthdays, weddings and unforgettable moments in the heart of Yeka
             Abado, Addis Ababa.
           </p>
 
@@ -68,21 +64,11 @@ export default function Hero() {
 
             <div>
               <h3 className="text-4xl font-bold text-white">
-                500+
+                 4.8★
               </h3>
 
               <p className="mt-1 text-gray-300">
-                Happy Guests
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-4xl font-bold text-white">
-                4.8★
-              </h3>
-
-              <p className="mt-1 text-gray-300">
-                Customer Rating
+                 Customer Rating
               </p>
             </div>
 
@@ -95,7 +81,6 @@ export default function Hero() {
                 Fresh Experience
               </p>
             </div>
-
           </div>
 
         </motion.div>
