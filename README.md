@@ -1,36 +1,192 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Green Bush Garden Website
 
-## Getting Started
+A modern, elegant, and responsive restaurant website built with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**. The website showcases Green Bush Garden's menu, gallery, events, and reservation system with a luxury design inspired by premium restaurant websites.
 
-First, run the development server:
+![Green Bush Garden](public/images/logo.png)
+
+---
+
+## ✨ Features
+
+- 🌿 Modern luxury restaurant design
+- 📱 Fully responsive (Mobile, Tablet & Desktop)
+- 🎬 Smooth animations with Framer Motion
+- 🖼️ Beautiful image gallery
+- 🍽️ Elegant menu section
+- 📅 Reservation popup form
+- 🎉 Events section
+- 📞 WhatsApp & Call buttons
+- 🌙 Glassmorphism navigation bar
+- ⚡ Fast performance with Next.js Image Optimization
+
+---
+
+## 🛠️ Built With
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- Framer Motion
+- Lucide React Icons
+
+---
+
+## 📂 Project Structure
+
+```text
+app/
+│
+├── page.tsx
+├── layout.tsx
+└── globals.css
+
+components/
+│
+├── home/
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── FeaturedMenu.tsx
+│   ├── Gallery.tsx
+│   ├── Events.tsx
+│   └── Reservation.tsx
+│
+├── layout/
+│   └── Navbar.tsx
+│
+└── ui/
+    ├── Container.tsx
+    ├── MenuCard.tsx
+    └── Button.tsx
+
+public/
+│
+├── images/
+│   ├── hero.jpg
+│   ├── logo.png
+│   ├── about1.jpg
+│   ├── about2.jpg
+│   ├── about3.jpg
+│   ├── menu1.jpg
+│   ├── menu2.jpg
+│   ├── menu3.jpg
+│   ├── menu4.jpg
+│   ├── menu5.jpg
+│   └── menu6.jpg
+```
+
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/green-bush-garden.git
+```
+
+### Navigate into the project
+
+```bash
+cd green-bush-garden
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📦 Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Design
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Colors
+
+| Color | Hex |
+|--------|-----|
+| Primary Green | `#166534` |
+| Dark Green | `#14532D` |
+| Cream Background | `#FBF8F2` |
+| Gold Accent | `#C8A95A` |
+| White | `#FFFFFF` |
+
+---
+
+## 📱 Responsive Design
+
+- Mobile First
+- Tablet Optimized
+- Desktop Optimized
+- Large Screen Support
+
+---
+
+## 📸 Image Optimization
+
+All images use the Next.js `<Image />` component for:
+
+- Automatic optimization
+- Lazy loading
+- Responsive sizing
+- Better performance
+
+---
+
+## 📋 Future Improvements
+
+- Menu filtering by category
+- Online reservation backend
+- Customer testimonials
+- Google Maps integration
+- Dark mode
+- Admin dashboard
+- CMS integration
+- Online ordering
+- Multi-language support
+
+---
+
+## 👨‍💻 Developer
+
+Developed by **Samuel Mengistu**
+
+GitHub: https://github.com/yourusername
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+### 🌿 Green Bush Garden
+
+**Nature • Great Food • Beautiful Memories**
