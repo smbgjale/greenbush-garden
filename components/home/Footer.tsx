@@ -186,7 +186,7 @@ export default function Footer() {
           <p>
             Designed & Developed by{" "}
             <span className="font-semibold text-white">
-              Samuel Mengistu & Kinutibeb Abera
+              Samuel Mengistu & kinetibeb Abera
             </span>
           </p>
 
