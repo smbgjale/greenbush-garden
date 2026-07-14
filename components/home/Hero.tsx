@@ -16,7 +16,6 @@ export default function Hero() {
         priority
         className="object-cover scale-100"
       />
-
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/55" />
 
@@ -40,7 +39,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-9 text-gray-200">
-            Discover delicious meals, premium coffee, beautiful gardens,
+            Beautiful garden ,Discover delicious meals, premium coffee,
             birthdays, weddings and unforgettable moments in the heart of Yeka
             Abado, Addis Ababa.
           </p>
@@ -52,10 +51,10 @@ export default function Hero() {
               Reserve a Table
             </button>
 
-            <button className="flex items-center gap-2 rounded-full border border-white/50 bg-white/10 px-8 py-3 font-semibold text-white backdrop-blur transition hover:bg-white hover:text-black">
+            <form action="Gallery.tsx"><button   className="flex items-center gap-2 rounded-full border border-white/50 bg-white/10 px-8 py-3 font-semibold text-white backdrop-blur transition hover:bg-white hover:text-black">
               Explore Gallery
               <ArrowRight size={18} />
-            </button>
+            </button></form>
 
           </div>
 

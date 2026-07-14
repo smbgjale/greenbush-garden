@@ -31,3 +31,13 @@ body {
 section {
   scroll-margin-top: 90px;
 }
+/* Hide scrollbar */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

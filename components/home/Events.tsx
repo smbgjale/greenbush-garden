@@ -83,7 +83,7 @@ export default function Events() {
             className="object-cover"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/20" />
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/10" />
 
           <div className="absolute left-10 top-1/2 max-w-md -translate-y-1/2 text-white">
             <h3 className="text-4xl font-bold">
