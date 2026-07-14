@@ -29,21 +29,21 @@ const menu = [
       "Freshly baked pizza topped with mozzarella, vegetables and premium ingredients.",
   },
   {
-    name: "Fresh Mojito",
+    name: "stir-fried noodles",
     price: "180 ETB",
     image: "/images/menu4.jpg",
     description:
       "Refreshing mint drink with lime and sparkling freshness.",
   },
   {
-    name: "Cappuccino",
+    name: "Special Shiro Wet",
     price: "160 ETB",
     image: "/images/menu5.jpg",
     description:
       "Rich espresso topped with silky steamed milk foam.",
   },
   {
-    name: "Chocolate Cake",
+    name: "Fasting Beyaynet",
     price: "220 ETB",
     image: "/images/menu6.jpg",
     description:
